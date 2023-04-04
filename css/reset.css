@@ -1,0 +1,3 @@
+All browsers come with default settings for things like font sizes, padding, borders, and other visual components. This can be frustrating for web developers because when our work created in one environment is viewed in another environment, there may be differences due to varying values of these default settings.
+
+We recommend using Eric Meyer’s reset.css file to “zero-out” all of those values so that you are developing from a clean slate.

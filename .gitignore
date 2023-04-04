@@ -1,0 +1,6 @@
+# file is used to manage what parts of a project will not be tracked by Git. This is particularly useful in preventing certain kinds of files from being pushed to a repository on GitHub.
+
+# Because the .gitignore file name starts with a period, it is a hidden file in the operating system. Recall that hidden files can be viewed in your terminal by adding the -a flag to an ls command.
+
+# note that lines that start with a # are comment lines.
+

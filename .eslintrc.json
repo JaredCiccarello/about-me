@@ -1,0 +1,18 @@
+// This file holds the project-specific rules for the JavaScript linter. It is good practice to include in a project the rules you used when creating it.
+
+// Because the .eslintrc.json file name starts with a period, it is a hidden file in the operating system. Recall that hidden files can be viewed in your terminal by adding the -a flag to an ls command.
+
+{
+  "line-length": false,
+  "no-trailing-punctuation": false,
+  "no-inline-html": {
+    "allowed_elements": [
+      "dl",
+      "dt",
+      "dd",
+      "summary",
+      "detail",
+      "img"
+    ]
+  }
+}
