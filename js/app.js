@@ -1,15 +1,20 @@
 'use strict'
 
-// let welcome = alert ('Welcome to Jareds about me!')
+let welcome = alert ('Welcome to Jareds about me!')
 
-// let greeting = prompt('You remind me of someone special, whats your name?')
-// if (greeting === 'yes' || greeting === 'y')
-//     alert('That's a lovely name, thank you for telling me');
+let greeting = prompt('You remind me of someone special, whats your name?')
+    alert(greeting + ' Thats a lovely name, thank you for telling me');
 
-// let marine = prompt('Did you know that I worked for the USMC? Yes or No').toLowerCase();
-// if (marine === 'yes' || marine === 'y');
-// alert('I actually worked there for 5 years')
-// // console.log(marine);
+
+
+let marine = prompt('Did you know that I worked for the USMC? Yes or No').toLowerCase();
+if (marine === 'yes' || marine === 'y') {
+    alert('I actually worked there for 5 years')
+    // console.log(marine);
+
+} else if (marine === 'no' || marine === 'n') {
+    alert('Wow, usually people can tell right away')
+}
 
 // let japan = prompt('Did you know lived in japan? Yes or No');
 // if (japan === 'yes' || japan === 'y');
@@ -24,7 +29,7 @@
 // let ocSpray = prompt('Did you know that I was sprayed in the eyes with peppers?')
 // if (ocSpray === 'yes' || ocSpray === 'y')
 //     alert('It felt like the longest 2 hours of my life!');
-// // console.log(ocSpray);
+// console.log(ocSpray);
 
 
 // console.log(mma);
