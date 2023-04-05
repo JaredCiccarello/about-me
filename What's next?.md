@@ -5,3 +5,5 @@ Display the users name back to them.
 Create a prompt stating whether or not the user is right or wrong.
 
 Need to add footer and other elements to complete your page.
+
+Add list items into your web page.
