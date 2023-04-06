@@ -18,3 +18,33 @@ A Beginner’s Guide to Writing a Kick*ss README
 Lastly, remember to keep your README up to date! Don’t just create it and then neglect it!
 
 README files are written in a language called Markdown.
+
+# LAB - Number
+
+## Project Name
+
+I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+
+### Author: Student/Group Name
+
+### Links and Resources
+
+* [submission PR](http://xyz.com)
+* Any Links you used as reference
+
+### Lighthouse Accessibility Report Score
+
+* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+
+### Reflections and Comments
+
+* Consider including the answers to your daily journal and submission questions here
+* This is also a good place to reflect on the tools and resources used and learned
+
+Lab class 3
+
+### 
+
+* https://stackoverflow.com/questions/57737291/ guess-the-number-game-progressing-the-loop-alert-reset
+
+https://www.w3schools.com/css/css_border.asp
