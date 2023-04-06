@@ -2,10 +2,11 @@
 
 // remember .includes() and .join() and no functions ()
 
-let welcome = alert ('Welcome to Jareds page! Where youll learn all')
+let welcome = alert ('Welcome to my page! Where youll learn all about me!');
 
 // Question 1
-function lab4() {
+
+function greeting() {
 let greeting = prompt('You remind me of someone special, whats your name?');
     alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');
     { 
@@ -13,22 +14,23 @@ let greeting = prompt('You remind me of someone special, whats your name?');
         alert('Pretty please?')
     }
 }
+}
 
 // Question 2
 function marine() {
 let marine = prompt('Do I look like I could have been in the military? Yes/No').toLowerCase();
-if (marine === 'yes' || marine === 'y'); {
+if (marine === 'yes' || marine === 'y') {
     alert('Youre on a roll! I actually worked there for 5 years!')
-    // console.log(You're absolutely right! I was in the military!);
+    // console.log('You're absolutely right! I was in the military!');
 } else {
-    alert('Wow, usually people can tell right away')
+    alert('Wow, usually people can tell right away!')
 }
 }
 
 // Question 3
 function japan() {
 let japan = prompt('Have you ever been to japan? Yes or No');
-if (japan === 'yes' || japan === 'y');{
+if (japan === 'yes' || japan === 'y') {
 alert('Really? Thats awesome! It was the best experience of my life.'); 
 // console.log(I actually got to shake hands with a yakuza member there);
 } else {
@@ -39,18 +41,17 @@ alert('Really? Thats awesome! It was the best experience of my life.');
 // Question 4
 function mma() {
 let mma = prompt('Have you ever trained in MMA? Yes or No')
-if (mma === 'yes' || mma === 'y')
-    alert('Oh cool, maybe you can teach me something!'); 
-    {
-console.log(mma);
+if (mma === 'yes' || mma === 'y') {
+    alert('Oh cool, maybe you can teach me something!');
+// console.log(mma);
 } else {
     alert('You should really try it!')
 }
 }
 
 // Question 5
-function() {
-let ocSpray = prompt('Could believe that I willingly put peppers into my eyes?')
+function ocSpray() {
+let ocSpray = prompt('Would you believe that I willingly put peppers into my eyes?')
 if (ocSpray === 'yes' || ocSpray === 'y'){
     alert('It felt like the longest 2 hours of my life!');
 // console.log(ocSpray);
@@ -76,21 +77,28 @@ if (ocSpray === 'yes' || ocSpray === 'y'){
 
 
 // Question 6
-let attemptsRemaining = 4
-let userHasAnsweredCorrectly = false
-console.log("You have only 4 attempts");
+// response if:
+// - guess is too high
+
+// - guess is too low
+// - guess is correct
+// - how many attempts they have left
+// - if there are no attempts left
+// - if there are no attempts left, give them the answer
+
+// let attemptsRemaining = 4
+// let userHasAnsweredCorrectly = false
+// // console.log("You have only 4 attempts");
 
 while (attemptsRemaining) {
     attemptsRemaining--;
     let jaredCatAge = parseInt(prompt('Did you know I have a cat? Guess his age'));
-    console.log(jaredCatAge, 3)
-    console.log(typeof 3); 
-    console.log('That is incorrect. You have ${attemptsRemaining} attempts remaining.')
+    // console.log('That is incorrect. You have ${attemptsRemaining} attempts remaining.')
     if (jaredCatAge === 5) {
-        alert('She might be old but shes not that old.')
+        alert('That guess it too high! She might be old but shes not that old.')
     }  
     else if (jaredCatAge === 2) {
-        alert('Thats too young for my cat, she wasnt born yesterday you know!')
+        alert('That guess is too low. She wasnt born yesterday you know!')
     }
     else if (jaredCatAge === 3) {
         alert('That is absolutely right!')
@@ -107,10 +115,12 @@ while (attemptsRemaining) {
 
 
 // Question 7
-let guess = 7
-// let score = 0
+// let guess = 7
+// // let score = 0
 
-let myFavPasta = [Penne, Rigatoni, Linguine, ]
+// let myFavPasta = [Penne, Rigatoni, Linguine, ]
+
+// for (i=0;i<7;i++)
 
 // while (guess){
 //     guess-;
@@ -120,6 +130,18 @@ let myFavPasta = [Penne, Rigatoni, Linguine, ]
 // for (let i = 0; i < attempts; i++) {
 //     console.log('I am in the for loop. You have ${attempts - i} attempts remaining')
 // }
+
+
+
+
+
+
+
+
+
+
+
+
 
 // QUESTION 7
 // let myFavColors = ['blue', 'cream', 'gold'];
@@ -142,13 +164,7 @@ let myFavPasta = [Penne, Rigatoni, Linguine, ]
 //   }
 // }
 
-
-// FOR LOOP
-
-// let attempts = 7;
-
 // for (let i = 0; i < attempts; i++) {
-//   // 7 - 0 = 7 - 1 = 6
 //   console.log(`I am in the for loop. You have ${attempts - i - 1} attempts remaining`);
 //   for (let j = 0; j < myFavColors.length; j++) {
 //     // console.log(userResponse, myFavColors[j]);
@@ -157,31 +173,3 @@ let myFavPasta = [Penne, Rigatoni, Linguine, ]
 //     }
 //   }
 // }
-
-/*
-// DO WHILE
-// it will do the thing at least one, and then avaluate if it should do it again.
-
-let attemptsLeft = 4;
-do {
-    console.log(`I am in the do while  loop ${attemptsLeft}`);
-    attemptsLeft--;
-} while (attemptsLeft >= 0);
-
-*/
-
-
-// QUESTION 6
-// guess a number
-
-/*
-response if:
-- guess is too high
-
-- guess is too low
-- guess is correct
-- how many attempts they have left
-- if there are no attempts left
-- if there are no attempts left, give them the answer
-
-*/

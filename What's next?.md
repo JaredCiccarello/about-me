@@ -8,6 +8,9 @@ Add a 7th question that has multiple possible correct answers that are stored in
 Give the user 6 attempts to guess the correct answer.
 The guesses will end once the user guesses a correct answer or they run out of attempts.
 
+
+
+
 Display all the possible correct answers to the user.
 Consider using a loop of some sort for this question.
 As a user, I would like to know my final score so that I can know how well I did.

@@ -52,3 +52,10 @@ Lab class 3
 * https://stackoverflow.com/questions/57737291/ guess-the-number-game-progressing-the-loop-alert-reset
 
 https://www.w3schools.com/css/css_border.asp
+
+https://www.youtube.com/watch?v=IToSV5tQNns
+
+https://www.youtube.com/watch?v=qdcPmQdrJac
+
+https://blog.hubspot.com/website/call-function-javascript
+
