@@ -5,15 +5,16 @@
 let welcome = alert ('Welcome to Jareds page! Where youll learn all')
 
 // Question 1
-let greeting = prompt('You remind me of someone special, whats your name?')
-    alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');{ 
+let greeting = prompt('You remind me of someone special, whats your name?');
+    alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');
+    { 
     } else {greeting === 'no' || greeting === 'n'
         alert('Pretty please?')
     }
 
 // Question 2
 let marine = prompt('Do I look like I could have been in the military? Yes/No').toLowerCase();
-if (marine === 'yes' || marine === 'y') {
+if (marine === 'yes' || marine === 'y'); {
     alert('Youre on a roll! I actually worked there for 5 years!')
     // console.log(You're absolutely right! I was in the military!);
 } else {
@@ -22,20 +23,19 @@ if (marine === 'yes' || marine === 'y') {
 
 // Question 3
 let japan = prompt('Have you ever been to japan? Yes or No');
-if (japan === 'yes' || japan === 'y');
-alert('Really? Thats awesome! It was the best experience of my life.');{
+if (japan === 'yes' || japan === 'y');{
+alert('Really? Thats awesome! It was the best experience of my life.'); 
 // console.log(I actually got to shake hands with a yakuza member there);
 } else {
     alert('I definitely recommend it!')
 }
 
-
-
 // Question 4
 let mma = prompt('Have you ever trained in MMA? Yes or No')
 if (mma === 'yes' || mma === 'y')
-    alert('Oh cool, maybe you can teach me something!'); {
-// console.log(mma);
+    alert('Oh cool, maybe you can teach me something!'); 
+    {
+console.log(mma);
 } else {
     alert('You should really try it!')
 }
@@ -96,36 +96,24 @@ while (attemptsRemaining) {
 
 
 
-
+// Question 7
+let guess = 7
 // let score = 0
 
-// let myFavPasta = [Penne, Rigatoni, Linguine]
+let myFavPasta = [Penne, Rigatoni, Linguine, ]
 
-// while (attemptsRemaining){
-//     attemptRemaining--;
-//     console.log('I am in the while loop. you have ${attemptsRemaining} attempts remaining.')
+// while (guess){
+//     guess-;
+//     console.log('I am in the while loop. you have ${attempts} attempts remaining.')
 // }
-
-// let attempts = 7;
 
 // for (let i = 0; i < attempts; i++) {
 //     console.log('I am in the for loop. You have ${attempts - i} attempts remaining')
 // }
 
-
-// = 
-
-
-
-
-
-
-
-
 // QUESTION 7
 // let myFavColors = ['blue', 'cream', 'gold'];
 // let userResponse = 'orange';
-
 
 // // WHILE LOOP
 
