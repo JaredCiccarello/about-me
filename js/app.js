@@ -5,6 +5,9 @@
 let welcome = alert ('Welcome to Jareds page! Where youll learn all')
 
 // Question 1
+function lab4() {
+    
+}
 let greeting = prompt('You remind me of someone special, whats your name?');
     alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');
     { 
