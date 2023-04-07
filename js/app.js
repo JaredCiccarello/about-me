@@ -1,64 +1,70 @@
 'use strict'
 
-// remember .includes() and .join() and no functions ()
+// remember no .includes() and .join() and no functions ()
 
-let welcome = alert ('Welcome to my page! Where youll learn all about me!');
+// Add console.log() messages within your app to notify the user if they are correct. Before submitting, comment out (don’t delete) your console.log() messages and replace them with the alerts() to complete the project. 
 
-// Question 1
 
-function greeting() {
-let greeting = prompt('You remind me of someone special, whats your name?');
-    alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');
-    { 
-    } else {greeting === 'no' || greeting === 'n'
-        alert('Pretty please?')
-    }
-}
-}
+// let welcome = alert('Welcome to my page! Where youll learn all about me!');
 
-// Question 2
-function marine() {
-let marine = prompt('Do I look like I could have been in the military? Yes/No').toLowerCase();
-if (marine === 'yes' || marine === 'y') {
-    alert('Youre on a roll! I actually worked there for 5 years!')
-    // console.log('You're absolutely right! I was in the military!');
-} else {
-    alert('Wow, usually people can tell right away!')
-}
-}
+// // Question 1
 
-// Question 3
-function japan() {
-let japan = prompt('Have you ever been to japan? Yes or No');
-if (japan === 'yes' || japan === 'y') {
-alert('Really? Thats awesome! It was the best experience of my life.'); 
-// console.log(I actually got to shake hands with a yakuza member there);
-} else {
-    alert('I definitely recommend it!')
-}
-}
+// function greeting() {
+//     let greeting = prompt('You remind me of someone special, whats your name?');
+//     alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');
+//     {
+//     } else {
+//         greeting === 'no' || greeting === 'n'
+//         alert('Pretty please?')
+//     }
+// }
+// greeting()
 
-// Question 4
-function mma() {
-let mma = prompt('Have you ever trained in MMA? Yes or No')
-if (mma === 'yes' || mma === 'y') {
-    alert('Oh cool, maybe you can teach me something!');
-// console.log(mma);
-} else {
-    alert('You should really try it!')
-}
-}
+// // Question 2
+// function marine() {
+//     let marine = prompt('Do I look like I could have been in the military? Yes/No').toLowerCase();
+//     if (marine === 'yes' || marine === 'y') {
+//         alert('Youre on a roll! I actually worked there for 5 years!')
+//         // console.log('You're absolutely right! I was in the military!');
+//     } else {
+//         alert('Wow, usually people can tell right away!')
+//     }
+// }
 
-// Question 5
-function ocSpray() {
-let ocSpray = prompt('Would you believe that I willingly put peppers into my eyes?')
-if (ocSpray === 'yes' || ocSpray === 'y'){
-    alert('It felt like the longest 2 hours of my life!');
-// console.log(ocSpray);
-} else {
-    alert('I actually did it 3 times if you can belieive it.')
-}
-}
+// // Question 3
+// function japan() {
+//     let japan = prompt('Have you ever been to japan? Yes or No');
+//     if (japan === 'yes' || japan === 'y') {
+//         alert('Really? Thats awesome! It was the best experience of my life.');
+//         // console.log(I actually got to shake hands with a yakuza member there);
+//     } else {
+//         alert('I definitely recommend it!')
+//     }
+// }
+
+// // Question 4
+// function mma() {
+//     let mma = prompt('Have you ever trained in MMA? Yes or No')
+//     if (mma === 'yes' || mma === 'y') {
+//         alert('Oh cool, maybe you can teach me something!');
+//         // console.log(mma);
+//     } else {
+//         alert('You should really try it!')
+//     }
+// }
+
+// // Question 5
+// function ocSpray() {
+//     let ocSpray = prompt('Would you believe that I willingly put peppers into my eyes?')
+//     if (ocSpray === 'yes' || ocSpray === 'y') {
+//         alert('It felt like the longest 2 hours of my life!');
+//         // console.log(ocSpray);
+//     } else {
+//         alert('I actually did it 3 times if you can belieive it.')
+//     }
+// }
+
+
 
 
 
@@ -90,13 +96,15 @@ if (ocSpray === 'yes' || ocSpray === 'y'){
 // let userHasAnsweredCorrectly = false
 // // console.log("You have only 4 attempts");
 
+
+
 while (attemptsRemaining) {
     attemptsRemaining--;
     let jaredCatAge = parseInt(prompt('Did you know I have a cat? Guess his age'));
     // console.log('That is incorrect. You have ${attemptsRemaining} attempts remaining.')
     if (jaredCatAge === 5) {
         alert('That guess it too high! She might be old but shes not that old.')
-    }  
+    }
     else if (jaredCatAge === 2) {
         alert('That guess is too low. She wasnt born yesterday you know!')
     }
