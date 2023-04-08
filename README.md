@@ -2,6 +2,9 @@
 
 The README document is the first point of entry into a code project, and the fundamental source of documentation. When viewing a project on GitHub, the README appears on the entry page immediately beneath the list of files and directories in the project. You will learn in the coming months that working with code with poor documentation can be a pain, so strive to provide good documentation for your work! -->
 
+![2023-04-07](https://user-images.githubusercontent.com/126429063/230695890-1e5941b3-ccee-4c3d-bb13-d1f5e030c9a6.png)
+
+
 Edited by: 
 Navigator: Jared Ciccarello
 Driver: iAmAndrewCarroll
