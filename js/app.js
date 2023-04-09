@@ -123,8 +123,9 @@ while (attemptsRemaining) {
 
 
 // Question 7
-// let guess = 7
-// // let score = 0
+let guess = 7
+let score = 0
+arr = []
 
 // let myFavPasta = [Penne, Rigatoni, Linguine, ]
 
