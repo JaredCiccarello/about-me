@@ -21,18 +21,17 @@
 // }
 // greeting()
 
-
-
-
-
+// VVV This is where you comment out the entire page VVV
+/ *
 
 let welcome = alert('Welcome to my page!');
-
+let score = 0;
 // Question 1
 function greeting() {
     let greeting = prompt('You remind me of someone special, whats your name?').toLocaleLowerCase();
     if (greeting === 'no' || greeting === 'n') {
         // console.log("good job!")
+        score++
         alert('Pretty please?')
     } else {
         alert(greeting + ' is a lovely name, before we move forward I would like to play a game!');
@@ -45,6 +44,7 @@ function marine() {
     let marine = prompt('Do I look like I could have been in the military? Yes/No').toLowerCase();
     if (marine === 'yes' || marine === 'y') {
         // console.log("Great job!")
+        score++
         alert('Youre on a roll! I actually worked there for 5 years!')
     } else {
         alert('Wow, usually people can tell right away!')
@@ -58,6 +58,7 @@ function japan() {
     let japan = prompt('Have you ever been to japan? Yes or No').toLowerCase();
     if (japan === 'yes' || japan === 'y') {
         // console.log ("You're good at this!")
+        score++
         alert('Really? Thats awesome! It was the best experience of my life.');
     } else {
         alert('I definitely recommend it!')
@@ -71,6 +72,7 @@ function mma() {
     let mma = prompt('Have you ever trained in MMA? Yes or No').toLocaleLowerCase();
     if (mma === 'yes' || mma === 'y') {
         // console.log("Seems like you already know me.")
+        score++
         alert('Oh cool, maybe you can teach me something!');
         // console.log(mma);
     } else {
@@ -84,7 +86,8 @@ mma()
 function ocSpray() {
     let ocSpray = prompt('Would you believe that I willingly put peppers into my eyes?').toLocaleLowerCase();
     if (ocSpray === 'yes' || ocSpray === 'y') {
-        console.log("Good answer!")
+        // console.log("Good answer!")
+        score++
         alert('It felt like the longest 2 hours of my life!');
     } else {
         alert('I actually did it 3 times if you can belieive it.')
@@ -116,25 +119,27 @@ let attemptsRemaining = 4;
 
 while (attemptsRemaining > 0) {
     attemptsRemaining--;
-console.log 
-    let jaredCatAge = parseInt(prompt('Did you know I have a cat? Guess his age'));
+console.log (attemptsRemaining);
+
+    let jaredCatAge = parseInt(prompt('Did you know I have a cat? Guess her age you have  ' + attemptsRemaining + ' guesses left.'));
 
     if (jaredCatAge === NaN){
-        alert ('Thats not an age for a cat!');
+        alert ('Thats not an age for a cat! ' + attemptsRemaining + ' guesses left.');
         attemptsRemaining++;
     }
     else if (jaredCatAge > 3){
-        alert('That guess is too high! She might be old but shes not that old.');
+        alert('That guess is too high! She might be old but shes not that old. ' + attemptsRemaining + ' guesses left.');
     }
     else if (jaredCatAge < 3){
-        alert('That guess is too low. She wasnt born yesterday you know!');
+        alert('That guess is too low. She wasnt born yesterday you know! ' + attemptsRemaining + ' guesses left.');
     }
     if (jaredCatAge === 3){
         alert('That is absolutely right!')
+        score++
         break;
     }
     if (attemptsRemaining === 0){
-        alert('The correct answer is 3! She was 2 when we met a year ago.');
+        alert('You have no attempts remaining. The correct answer is 3! She was just a baby when we met.');
     }
 }
 
@@ -149,64 +154,52 @@ console.log
 // As a user, I would like to know my final score so that I can know how well I did.
 // Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
 
+// Remember parseInt turns a string into a Number
+
+// if statement comes first, then an else if, then an else statement
+
+// let score = 0;
+// animeList = ['trigun', 'pokemon', 'yugioh', 'cowboy bebop', 'inuyasha', 'sailor moon', 'dragon ball z'];
+// let guesses = 7;
 
 
-// Question 7
-let guess = 7
-while (lives) = []
-
-// let myFavPasta = [Penne, Rigatoni, Linguine, ]
-
-// for (i=0;i<7;i++)
-
-// while (guess){
-//     guess-;
-//     console.log('I am in the while loop. you have ${attempts} attempts remaining.')
-// }
-
-// for (let i = 0; i < attempts; i++) {
-//     console.log('I am in the for loop. You have ${attempts - i} attempts remaining')
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// QUESTION 7
-// let myFavColors = ['blue', 'cream', 'gold'];
-// let userResponse = 'orange';
-
-// // WHILE LOOP
-
-// let attemptsRemaining = 3;
-// let userHasAnsweredCorrectly = false;
-
-// while (attemptsRemaining) {
-//   attemptsRemaining--;
-//   console.log(`I am in the while loop. You have ${attemptsRemaining} attempts remaining.`);
-//   for (let i = 0; i < myFavColors.length; i++) {
-//     // console.log(userResponse, myFavColors[i]);
-//     if (userResponse === myFavColors[i]) {
-//       console.log('Your correct');
-//       score++;
-//     }
+// while (guesses > 0) {
+//     guess = prompt(`Guess the most dramatic anime from my childhood. You have ${guesses} guesses left.`);
+    
+//     if (guess.toLowerCase() === correctAnime) {
+//         score++;
+//         alert(`Congratulations! "${correctAnime}" was the correct answer.`);
+//         break;
+//     } else {
+//         guesses--;
+//         alert(`Sorry, "${guess}" is not the correct answer. Please try again. ` );
+//         if (guesses === 0) {
+//           alert(`Game over! The correct answer was "${correctAnime}". Your final score is ${score}.`);
+//         }
 //   }
 // }
 
-// for (let i = 0; i < attempts; i++) {
-//   console.log(`I am in the for loop. You have ${attempts - i - 1} attempts remaining`);
-//   for (let j = 0; j < myFavColors.length; j++) {
-//     // console.log(userResponse, myFavColors[j]);
-//     if (userResponse === myFavColors[j]) {
-//       console.log('Your correct');
-//     }
-//   }
+// if (guesses === 0) {
+//   alert(`Game over! The correct answer was "${correctAnime}". Your final score is ${score}.`);
 // }
+
+
+const animeList = ['trigun', 'pokemon', 'yugioh', 'cowboy bebop', 'inuyasha', 'sailor moon', 'dragon ball z'];
+const correctAnime = 'yugioh'
+let guesses = 7;
+
+while (guesses > 0) {
+    const guess = prompt(`Guess the most dramatic anime from my childhood. You have ${guesses} guesses left.`);
+    
+    if (guess.toLowerCase() === correctAnime) {
+        alert(`Congratulations! Yugioh was the most ridiculous anime I have ever seen."${correctAnime}" was the correct answer. Your final score is ${score}`);
+        break;
+    } else {
+        guesses--;
+        alert(`Sorry, "${guess}" is not the correct answer. Please try again.`);
+    }
+}
+
+if (guesses === 0) {
+    alert(`Game over! The correct answer was "${correctAnime}". Your final score is ${score}.`);
+}
