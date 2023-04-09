@@ -1,11 +1,25 @@
 header {
   font-size: 3rem;
   text-align: center;
+  border-bottom: solid aliceblue;
+}
+
+img {
+  border: 4px solid brown
 }
 
 h1 {
     font-size: 3rem;
     text-align: center;
+  }
+
+  h2 {
+    text-align: justify;
+    /* text-justify: inter-word; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 1rem;
   }
 
   p {
@@ -29,10 +43,12 @@ h1 {
   }
 
 body {
-    background-color: lightsalmon;
+    background-color: rgb(122, 135, 255);
 }
 
 footer {
   margin-bottom: 1rem;
   padding-top: 3rem;
 }
+
+lightsalmon
